@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(61, 57, 57);
+    
+}
+
+li{
+    float: right;
+}
+ul{
+    list-style-type: none;
+    margin: 20px;
+}
+
+li a{
+    padding: 20px;
+    height: 20px;
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: larger;
+}
