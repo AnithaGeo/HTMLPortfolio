@@ -1,14 +1,82 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
     box-sizing: border-box;
+    transition: all .3s ease-in-out;
 }
 body{
     background-color: rgb(61, 57, 57);
-    
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 12px;
+    height: 20px;
+    font-size: larger;
+    font-weight: bold;
+
 }
 
-li{
+.logo{
+    align: left;
+    width: 15%;
+}
+.details{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+.details h1{
+    font-size: 50px;
+    color: blanchedalmond;
+    margin-bottom: 20px;
+}
+.details p{
+    color: #aeafaf;
+    line-height: 22px;
+}
+.image{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.image img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+.social{
+    position: absolute;
+    right: 45px;
+    display: flex;
+    flex-direction: column;
+}
+.social a{
+    font-size: 30px;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+.social a:hover{
+    color: #aeafaf;
+}
+/* li{
     float: right;
 }
 ul{
@@ -28,20 +96,10 @@ li a{
     width: 100%;
     height: 100px;
     border-collapse: collapse;
-   /* background-color: #333;
-    overflow: hidden;*/
+   
 }
 
-/* Style the links inside the navigation bar */
-.topnav a {
-    /*float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;*/
-  }
-  
+   */
   /* Change the color of links on hover */
   .topnav a:hover {
     background-color: #5b5e5e;
@@ -54,14 +112,14 @@ li a{
     color: #313232;
   }
 
-  .leftpane {
+  /* .leftpane {
     width: 50%;
     height: 100%;
     float: left;
     border-collapse: collapse;
-}
+} */
 
-img {
+/* img {
     max-width: 100%;
     max-height: 100%;
     margin-top: auto;
@@ -70,4 +128,4 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
+  } */
