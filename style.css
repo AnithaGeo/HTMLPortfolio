@@ -44,7 +44,7 @@ nav ul li a{
     color: blanchedalmond;
     margin-bottom: 20px;
 }
-.details p{
+.details h3{
     color: #aeafaf;
     line-height: 22px;
 }
@@ -75,6 +75,12 @@ nav ul li a{
 }
 .social a:hover{
     color: #aeafaf;
+}
+.btn{
+    background: #aeafaf;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-weight: bold;
 }
 /* li{
     float: right;
