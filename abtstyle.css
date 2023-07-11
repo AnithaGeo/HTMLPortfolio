@@ -37,40 +37,44 @@ nav ul li a{
 }
 .btn{
     background: #aeafaf;
+    color: black;
     padding: 10px 25px;
     text-decoration: none;
     font-weight: bold;
+    margin-top: 100px;
 }
-.about-det{
+.btn:hover{
+    color: #c1cdcd;
+    background: #060707;
+}
+/* .about-det{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-left: 40%;
-    /* padding-right: 25%; */
-    /* display: block; */
     margin: auto;
-    /* width: 50%; */
-    /* height: 30vh; */
     color: rgb(153, 163, 163);
-}
+} */
 .about-det h1{
-    font-size: 50px;
+    /* font-size: 50px; */
     /* color: blanchedalmond; */
     /* margin-bottom: 20px; */
 }
 .about-det p{
-    line-height: 22px;
+    /* line-height: 22px; */
 }
 .about-img{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
-    width: 100%;
+    
 }
 .about-img img{
-    left: 50%;
+    /* left: 50%; */
     width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .topnav a:hover {
     background-color: #5b5e5e;
@@ -80,4 +84,13 @@ nav ul li a{
   .topnav a.active {
     background-color: #aeafaf;
     color: #313232;
+  }
+  .flexing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+    color: rgb(153, 163, 163);
   }
