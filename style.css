@@ -33,7 +33,7 @@ nav ul li a{
 
 .logo{
     align: left;
-    width: 15%;
+    width: 10%;
 }
 .details{
     margin-left: 8%;
@@ -61,6 +61,8 @@ nav ul li a{
     left: 50%;
     bottom: 0;
     transform: translateX(-50%);
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
 }
 .social{
     position: absolute;
