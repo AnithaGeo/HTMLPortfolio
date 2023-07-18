@@ -64,6 +64,9 @@ nav ul li a{
     border-top-right-radius: 10%;
     border-bottom-left-radius: 10%;
 }
+.image img:hover{
+    box-shadow: 10px 10px 10px rgb(68, 70, 72);
+}
 .social{
     position: absolute;
     right: 45px;
@@ -76,7 +79,8 @@ nav ul li a{
     margin-bottom: 10px;
 }
 .social a:hover{
-    color: #aeafaf;
+    color: #abb7b7;
+    transform: scale(1.2);
 }
 .btn{
     background: #aeafaf;

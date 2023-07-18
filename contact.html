@@ -75,5 +75,15 @@
             </div>
         </form>
     </div>
+    <!-- <script>
+        const scriptURL='<https://script.google.com/macros/s/AKfycby_JuBTGnLJiIyPPnOtxmY72hMHNKhdL5QJqMFraFnkJ5yUO0KZzRE2ZsfASbf3_Hop/exec>'
+        const form=document.forms['gsheet']
+        form.addEventListener('submit',e=>{
+            e.preventDefault()
+            fetch(scriptURL, {method:'POST',body:new FormData(form)})
+            .then(response=>console.log('Success!!',response))
+            .catch(error=>console.error('Error!!',error.message))
+        })
+    </script> -->
 </body>
 </html>
